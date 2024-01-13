@@ -1,7 +1,10 @@
+h1{
+    color:rgb(197, 22, 22);
+}
+p{
+    color: blueviolet;
+}
 body{
-    font-style:oblique;
-    font-weight: 400;
+    color: red;
     background-color: black;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: whitesmoke;
 }
