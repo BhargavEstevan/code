@@ -1,32 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Bookmarks - Bhargav</title>
+    <title>Forms - lets learn it</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>THE CURRENCY</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ut fugiat soluta excepturi esse. Iusto, cumque necessitatibus. Exercitationem aliquam molestias voluptates deserunt consequuntur tenetur maxime ipsa. Delectus tempore, repellat voluptatum facere voluptates sit assumenda tenetur ipsum? Mollitia deserunt rerum quis recusandae quo quod obcaecati aperiam amet sapiente eum nobis atque, modi illum est magni, similique blanditiis tenetur nesciunt perferendis libero?</p>
-    <!-- <img src="dollar.p.png" alt="no image" srcset=""> -->
-    <table>
-        <tr>
-            <th>sno</th>
-            <th>name</th>
-            <th>addr</th>
-        </tr>
-        <tr>
-           <td>1</td>
-           <td>lorem</td>
-           <td>Lorem, ipsum dolor.</td>
-        </tr>
-        <tr>
-           <td>12</td>
-           <td>lorem</td>
-           <td>Lorem, ipsum dolor.</td>
-        </tr>
-    </table>
-    <script src="script.js"></script>
+    <h1>this are the HTML forms </h1>
+    <hr>
+    <form action="">
+        <label for="username">Username :_</label>
+        <input type="text" name="username" placeholder="Enter Username">
+        <br>
+        <label for="gender">Gender:_</label>
+        <input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="female">Female
+        <br>
+        <label for="email">Email:_</label>
+        <input type="email" name="email" placeholder="enter your email">
+        <br>
+        <label for="password">Password:_</label>
+        <input type="password" name="password" placeholder="enter your password">
+        <br>
+        <label for="phno">PhoneNo:_</label>
+        <input type="number" name="phno" placeholder="enter the mobile number">
+        <br>
+        <label for="select">agree to the terms</label>
+        <input type="button" name="select" value="yes">
+        <input type="button" name="select" value="no">
+        <br>
+        <label for="country">select the country</label>
+        <select name="country" id="">
+            <option value="india">india</option>
+            <option value="srilanka">srilanka</option>
+            <option value="bangladesh">bangladesh</option>
+        </select>
+        <br>
+        <textarea name="text" id="" cols="30" rows="10">enter your querry</textarea>
+    </form>
 </body>
+
 </html>
